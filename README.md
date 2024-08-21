@@ -1,16 +1,38 @@
-# datacollect
+# Flutter Firebase Authentication
 
-A new Flutter project.
+This Flutter application demonstrates Firebase authentication with email and password. The project uses `firebase_auth`, `firebase_core`, and `firebase_analytics` packages.
 
-## Getting Started
+## Features
+- **Login Page**: Allows users to sign in using email and password.
+- **Profile Page**: After successful login, users are redirected to their profile page.
+- **Error Handling**: Displays appropriate messages for wrong credentials or unregistered emails.
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/flutter-firebase-auth.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd flutter-firebase-auth
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Set up Firebase for your app by adding your `google-services.json` (for Android) or `GoogleService-Info.plist` (for iOS) to the respective directories.
 
-A few resources to get you started if this is your first Flutter project:
+5. Run the app:
+   ```bash
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Firebase Configuration
+Ensure that you've set up Firebase with the necessary services:
+- Firebase Authentication
+- Firebase Analytics (optional)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Update the `apiKey`, `appId`, `messagingSenderId`, and `projectId` in your `main.dart` file with your Firebase credentials.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
