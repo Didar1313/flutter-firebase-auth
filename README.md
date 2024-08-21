@@ -10,7 +10,7 @@ This Flutter application demonstrates Firebase authentication with email and pas
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/flutter-firebase-auth.git
+   git clone https://github.com/Didar1313/flutter-firebase-auth.git
    ```
 2. Navigate to the project directory:
    ```bash
