@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555912851971",
+    "project_id": "flutter-firebase-24ba5",
+    "storage_bucket": "flutter-firebase-24ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555912851971:android:a36908d071781369c4d436",
+        "android_client_info": {
+          "package_name": "com.example.datacollect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8g9H0h_pEXEHnSFZ1xl74qfXpe7SFVIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
